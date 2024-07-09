@@ -1,7 +1,12 @@
+import Header from "../Shared/Header/Header";
+import Navbar from "../Shared/Navbar/Navbar";
+
 function Home() {
   return (
     <div>
-      <h2 className="text-3xl">this is home</h2>
+      <Header />
+      <Navbar />
+      <h2 className="text-3xl font-poppins">this is home</h2>
     </div>
   );
 }
